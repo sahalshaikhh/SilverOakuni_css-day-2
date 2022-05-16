@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<title>
+			Animation 1	
+		</title>
+		<style type="text/css"> 
+			div 
+            {
+			  width: 10px;
+			  height: 150px;
+              width: 10px;
+              border: solid 30px;
+			  background-color: rgb(123, 36, 199);
+			  position:relative;
+			  animation-name:abc;
+			  animation-duration:5s;
+			  animation-iteration-count:infinite;
+			 }
+	
+			@keyframes abc{
+				0%{background-color:rgba(148, 101, 141, 0.738); left:0px; top:0px;transform:rotate(0deg);}
+				25%{background-color:rgb(109, 121, 118); left:200px; top:0px;transform:rotate(90deg);}
+				50%{background-color:rgb(105, 83, 83); left:200px; top:200px;transform:rotate(180deg);}
+				75%{background-color:rgb(235, 32, 32); left:0px; top:200px;transform:rotate(270deg);}
+				100%{background-color:rgb(249, 39, 217, 0.738); left:0px; top:0px;transform:rotate(360deg);}
+		
+			}
+		</style>
+				<style type="text/css">
+			#MainUL li ul li{display:none;}
+			#MainUL li:hover ul li{display:block;}
+			#MainUL li:hover ul li{display:block;}
+			#MainUL li:hover ul li ul li{display:block;}
+			#MainUL li ul li:hover ul li{display:block;}
+			#MainUL li ul li:hover ul li ul li{display:block;}
+			#MainUL li ul li ul li:hover ul li{display:block;}
+		</style>
+		
+	</head>
+	<body >
+		<div> <ul id="MainUL">
+			<li>B.C.A.
+				<ul>
+					<li> PRACTICAL
+						<ul>
+							<li>HTML</li>
+							<li>C
+								<ul>
+									<li>CSS</li>
+									<li>SQL</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>JAVA</li>
+					<li>PYTHON</li>
+					<li>PHP</li>
+				</ul>
+			</li>
+			<li> QULIFICATION</li>
+				<UL>
+					<LI>10<sup>th</sup></li>
+					<li>12<sup>th</sup></li>
+					</UL>
+			<li> HOBBY
+				<ul>
+					<li>SWIMMING</li>
+					<li>CHESS</li>
+				</ul>
+			</li>
+			<li>SKILL</li>
+			<li>COADING
+				<ul>
+					<li>HTML</li>
+					<li>C</li>
+					<li>CSS</li>
+				</ul>
+			</li>
+		</ul>
+		
+		</div>
+	</body>
+</html>
